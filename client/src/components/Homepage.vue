@@ -1,33 +1,19 @@
 <template>
   <div class="container">
+    <br>
+    <br>
     <p v-if="error">{{error}}</p>
-    <!-- <div class="posts">
-      <div v-for="post in posts" v-bind:key="post._id" class="row">
-      <div class="testimonial col-6">
-        <p>{{post.time}}</p>
-        <p>{{post.text}}</p>
-      </div>
-      </div>
-    </div> -->
+    
     <div class="col-md-12 text-center">
-    <h1 class="title">Arnet
-      <img src="../assets/global.svg" alt="" width="50">
-    </h1>
   </div>
   <!-- carousel -->
   <div class="col-md-12 text-center">
     <div class="text-center">
-      <hr>
-      <h2>Cloud systems and distributed machines</h2>
-      <hr>
       <img src="../assets/connection.svg" alt="" width="300px">
-      <p style="font-weight: bold;">We help you design and connect to the cloud more efficiently</p>
       <p style="font-size: 20px;">
         Rather than owning your own computing infrastructure or data centers, <br> companies can rent access to anything
         from applications to storage from a cloud service provider.
       </p>
-      <hr>
-      <button class="btn btn-success">Get started</button>
     </div>
   </div>
   <div class="card-group text-center">
@@ -62,7 +48,7 @@
         <p>Freelance Writters</p>
         <small>Hire Writters, programmers right from whereever you are</small>
         <br>
-        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-outline-primary">Get Started</button>
         <br>
       </div>
     </div>
@@ -109,6 +95,8 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+
 li {
   display: inline-block;
   margin: 0 10px;

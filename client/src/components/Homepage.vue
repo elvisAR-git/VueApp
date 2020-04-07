@@ -3,17 +3,19 @@
     <br>
     <br>
     <p v-if="error">{{error}}</p>
-    
     <div class="col-md-12 text-center">
   </div>
-  <!-- carousel -->
+  <h2 class="title">What do we <span class="blue">offer?</span></h2>
+  <hr>
+  <br>
   <div class="col-md-12 text-center">
     <div class="text-center">
-      <img src="../assets/connection.svg" alt="" width="300px">
-      <p style="font-size: 20px;">
-        Rather than owning your own computing infrastructure or data centers, <br> companies can rent access to anything
-        from applications to storage from a cloud service provider.
+      <p style="font-size: 90%;">
+        We offer a series of solutions in areas of Programing and software development,<br>
+        Content and academic Writting and Project running
       </p>
+      <br>
+      <button class="btn btn-success">Start your Free Trial</button>
     </div>
   </div>
   <div class="card-group text-center">
@@ -96,6 +98,10 @@ ul {
   padding: 0;
 }
 
+.blue{
+  color: rgb(44, 91, 221);
+  font-weight: bold;
+}
 
 li {
   display: inline-block;
@@ -104,14 +110,7 @@ li {
 a {
   color: #42b983;
 }
-.title {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 70px;
-}
 
-p {
-    font-family: "ubuntu";
-}
 
 .testimonial {
     background-color: aliceblue;
@@ -124,6 +123,7 @@ p {
     animation-fill-mode: forwards;
 
 }
+
 
 .testimonial:hover {
     box-shadow: 2px 3px 15px gray;
@@ -178,10 +178,7 @@ ul {
     list-style-type: none;
 }
 
-body {
-    font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
-    background: #dee1e3;
-}
+
 
 /** ====================
  * Lista de Comentarios
